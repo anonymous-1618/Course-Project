@@ -3,8 +3,8 @@ Code Book Feature Description
 
 Signal domain description
 -------------------------
-Time:							Time domain	
-Frequency:						Frequency domain
+Time:						Time domain	
+Frequency:					Frequency domain
 
 Signal description
 -------------------------
