@@ -3,8 +3,8 @@ Code Book Feature Description
 
 Signal domain description
 -------------------------
-t:							Time domain	
-f:							Frequency domain
+t:						Time domain	
+f:						Frequency domain
 
 Signal description
 -------------------------
@@ -17,9 +17,9 @@ Mag:						Magnitude of signal
 
 Vector direction
 -------------------------
-X:							X-direction
-Y:							Y-direction
-Z:							Z-direction
+X:						X-direction
+Y:						Y-direction
+Z:						Z-direction
 
 Calculated variables
 -------------------------
@@ -41,10 +41,11 @@ VARIABLES of "NewTidyData.txt"
 1.	subject:	
 		1 to 30:			Volunteer ID number from 1 to 30
 
-2.	activity:	Six Physical activities executed and monitored from Volunteers
+2.	activity:	
+	Six Physical activities executed and monitored from Volunteers
 		walking:			volunteer walking
-		walkingupstairs:	volunteer walking upstairs
-		walkingdownstairs:	volunteer walking downstairs
+		walkingupstairs:		volunteer walking upstairs
+		walkingdownstairs:		volunteer walking downstairs
 		sitting:			volunteer sitting
 		standing:			volunteer standing
 		laying:				volunteer laying
