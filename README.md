@@ -18,14 +18,14 @@ Getting and Cleaning Data Course Project Assigment
 
 ###The developed script "run_analysis.R" is able to:
 
-1.	Download and Unzip a compressed data from a provided URL
-2.	Load to R Global environment the files from their respective folders
-3.	Combine the test and train data
-4.	Clean the data by considering the rules of tidy data, and labelling the variables with descriptive names 
-5.	Select the data and create a new tidy data (NewTidyData)
-6.	Calculate the mean and standard deviation of the selected variables
-7.	Use the activity names in the new data set
-8.	Export the data
+1.	Download and Unzip a compressed data from a provided URL.
+2.	Load to R Global environment the files from their respective folders.
+3.	Combine the test and train data.
+4.	Clean the data by considering the rules of tidy data, and labelling the variables with descriptive names. 
+5.	Select the data and create a new tidy data (NewTidyData).
+6.	Calculate the mean and standard deviation of the selected variables.
+7.	Use the activity names in the new data set.
+8.	Export the tidy data.
 
 The variables description of the NewTidyData is presented in the CodeBook.txt with some level of detail.
 
