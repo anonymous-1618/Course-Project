@@ -38,44 +38,46 @@ A summary of content of such files are presented bellow:
 
 ***************************************************
 30 volunteers were asked to wear two type of sensors: accelerometer and gyroscope.
-the volunteers were asked to perform the following 6 activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, 
-STANDING and LAYING.
+
+The volunteers were asked to perform the following 6 activities: 
+Walking, Walking Upstairs, Walking Downstairs, Sitting Standing, and Laying.
 
 Data were collected at a constant rate of 50Hz for 3-axial linear acceleration and 3-axial angular velocity.
 
 For a data analysis the full dataset was split into train and test sets:
-70% of data volunteers for train set
-30% of data volunteers for test set
+
+*   70% of data volunteers for train set
+*   30% of data volunteers for test set
 
 For each record the following is provided:
 
-1.  Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-2.  Triaxial Angular velocity from the gyroscope. 
-3.  A 561-feature vector with time and frequency domain variables. 
-4.  Its activity label. 
-5.  An identifier of the subject who carried out the experiment.
+*  Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+*  Triaxial Angular velocity from the gyroscope. 
+*  A 561-feature vector with time and frequency domain variables. 
+*  Its activity label. 
+*  An identifier of the subject who carried out the experiment.
 
 The dataset includes the following files:
 
-1.  'features_info.txt': Shows information about the variables used on the feature vector.
-2.  'features.txt': List of all features.
-3.  'activity_labels.txt': Links the class labels with their activity name.
-4.  'train/X_train.txt': Training set.
-5.  'train/y_train.txt': Training labels.
-6.  'test/X_test.txt': Test set.
-7.  'test/y_test.txt': Test labels.
+*  'features_info.txt': Shows information about the variables used on the feature vector.
+*  'features.txt': List of all features.
+*  'activity_labels.txt': Links the class labels with their activity name.
+*  'train/X_train.txt': Training set.
+*  'train/y_train.txt': Training labels.
+*  'test/X_test.txt': Test set.
+*  'test/y_test.txt': Test labels.
 
 The following files are available for the train and test data. Their descriptions are equivalent. 
 
-1.  'train/subject_train.txt': 
+*  'train/subject_train.txt': 
     Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-3.  'train/Inertial Signals/total_acc_x_train.txt':
+*  'train/Inertial Signals/total_acc_x_train.txt':
     The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'.
-5.  Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt'
+*  Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt'
     and 'total_acc_z_train.txt' files for the Y and Z axis. 
-6.  'train/Inertial Signals/body_acc_x_train.txt': 
+*  'train/Inertial Signals/body_acc_x_train.txt': 
     The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
-7.  'train/Inertial Signals/body_gyro_x_train.txt': 
+*  'train/Inertial Signals/body_gyro_x_train.txt': 
     The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 ***************************************************
