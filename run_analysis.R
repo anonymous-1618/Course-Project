@@ -33,7 +33,7 @@
 #   Cleaning the non-alfanumeric characters, and using CamelCase structure
     clearfeatures <- gsub("\\(|)|,|-|_","",features[,2])
     clearfeatures <- gsub("^t","Time",clearfeatures)
-    clearfeatures <- gsub("^f","Fime",clearfeatures)
+    clearfeatures <- gsub("^f","Frequency",clearfeatures)
     clearfeatures <- gsub("angle", "Angle",clearfeatures)
     clearfeatures <- gsub("Meangravity","MeanGravity",clearfeatures)
     clearfeatures <- gsub("mean","Mean",clearfeatures)
