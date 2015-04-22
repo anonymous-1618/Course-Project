@@ -1,0 +1,308 @@
+Code Book Feature Description 
+=============================
+
+Signal domain description
+-------------------------
+t:							Time domain	
+f:							Frequency domain
+
+Signal description
+-------------------------
+Acc:						Accelerometer that measures linear acceleration
+Gyro:						Gyroscope that measures angular acceleration 
+Body:						Body
+Gravity:					Gravity
+Jerk:						Jerk signal
+Mag:						Magnitude of signal
+
+Vector direction
+-------------------------
+X:							X-direction
+Y:							Y-direction
+Z:							Z-direction
+
+Calculated variables
+-------------------------
+Mean:						Mean value
+Std: 						Standard deviation
+MeanFreq:					Weighted average of the frequency components to obtain a Mean frequency
+angle:						Angle between two vectors.
+
+
+NB:
+The complete list of variables, and more detail meaning of each feature vector is available in "features_info.txt"
+The variables are ordered in agreement with appearance in the column of data set.
+
+==============================================================================================================
+VARIABLES of "NewTidyData.txt"
+==============================================================================================================
+
+
+1.	subject:	
+		1 to 30:			Volunteer ID number from 1 to 30
+
+2.	activity:	Six Physical activities executed and monitored from Volunteers
+		walking:			volunteer walking
+		walkingupstairs:	volunteer walking upstairs
+		walkingdownstairs:	volunteer walking downstairs
+		sitting:			volunteer sitting
+		standing:			volunteer standing
+		laying:				volunteer laying
+
+3.	tBodyAccMeanX:
+		Mean of signal in time domain of body acceleration in X-direction.
+
+4.	tBodyAccMeanY:
+		Mean of signal in time domain of body acceleration in Y-direction.
+
+5.	tBodyAccMeanZ:
+		Mean of signal in time domain of body acceleration in Z-direction.
+
+6.	tGravityAccMeanX:
+		Mean of signal in time domain of gravity acceleration in X-direction.
+
+7.	tGravityAccMeanY:	
+		Mean of signal in time domain of gravity acceleration in Y-direction.
+
+8.	tGravityAccMeanZ:
+		Mean of signal in time domain of gravity acceleration in Z-direction.
+
+9.	tBodyAccJerkMeanX:
+		Mean of Jerk signal in time domain of body acceleration in X-direction.
+
+10.	tBodyAccJerkMeanY:
+		Mean of Jerk signal in time domain of body acceleration in Y-direction.
+
+11.	tBodyAccJerkMeanZ:
+		Mean of Jerk signal in time domain of body acceleration in Z-direction.
+
+12.	tBodyGyroMeanX:
+		Mean of signal in time domain of body angular acceleration in X-direction.
+
+13.	tBodyGyroMeanY:
+		Mean of signal in time domain of body angular acceleration in Y-direction.
+
+14.	tBodyGyroMeanZ:
+		Mean of signal in time domain of body angular acceleration in Z-direction.
+
+15.	tBodyGyroJerkMeanX:
+		Mean of Jerk signal in time domain of body angular acceleration in X-direction.
+
+16.	tBodyGyroJerkMeanY:
+		Mean of Jerk signal in time domain of body angular acceleration in Y-direction.
+
+17.	tBodyGyroJerkMeanZ:
+		Mean of Jerk signal in time domain of body angular acceleration in Z-direction.
+
+18.	tBodyAccMagMean:
+		Mean of signal magnitude in time domain of body acceleration.
+
+19.	tGravityAccMagMean:
+		Mean of signal magnitude in time domain of gravity acceleration.
+
+20.	tBodyAccJerkMagMean:
+		Mean of Jerk signal magnitude in time domain of body acceleration.
+
+21.	tBodyGyroMagMean:
+		Mean of signal magnitude in time domain of body angular acceleration.
+
+22.	tBodyGyroJerkMagMean:
+		Mean of Jerk signal magnitude in time domain of body angular acceleration.
+
+23.	fBodyAccMeanX:
+		Mean of signal in frequency domain of body acceleration in X-direction.
+
+24.	fBodyAccMeanY:
+		Mean of signal in frequency domain of body acceleration in Y-direction.
+
+25.	fBodyAccMeanZ:
+		Mean of signal in frequency domain of body acceleration in Z-direction.
+
+26.	fBodyAccMeanFreqX:
+		Weighted average of the frequency components in frequency domain of body acceleration in X-direction.
+
+27.	fBodyAccMeanFreqY:
+		Weighted average of the frequency components in frequency domain  of body acceleration in Y-direction.
+
+28.	fBodyAccMeanFreqZ:
+		Weighted average of the frequency components in frequency domain of body acceleration in Z-direction.
+
+29.	fBodyAccJerkMeanX:
+		Mean of Jerk signal in frequency domain of body acceleration in X-direction.
+
+30.	fBodyAccJerkMeanY:
+		Mean of Jerk signal in frequency domain of body acceleration in Y-direction.
+
+31.	fBodyAccJerkMeanZ:
+		Mean of Jerk signal in frequency domain of body acceleration in Z-direction.
+
+33.	fBodyAccJerkMeanFreqX:
+		Weighted average of the frequency components of Jerk signal  in frequency domain of body acceleration in X-direction.
+
+33.	fBodyAccJerkMeanFreqY:
+		Weighted average of the frequency components of Jerk signal  in frequency domain of body acceleration in Y-direction.
+
+34.	fBodyAccJerkMeanFreqZ:
+		Weighted average of the frequency components of Jerk signal  in frequency domain of body acceleration in Z-direction.
+
+35.	fBodyGyroMeanX:
+		Mean of signal in frequency domain of body angular acceleration in X-direction.
+
+36.	fBodyGyroMeanY:
+		Mean of signal in frequency domain of body angular acceleration in Y-direction.
+
+37.	fBodyGyroMeanZ:
+		Mean of signal in frequency domain of body angular acceleration in Z-direction.
+
+38.	fBodyGyroMeanFreqX:
+		Weighted average of the frequency components of signal in frequency domain of body angular acceleration in X-direction. 
+
+39.	fBodyGyroMeanFreqY:
+		Weighted average of the frequency components of signal in frequency domain of body angular acceleration in Y-direction. 
+
+40.	fBodyGyroMeanFreqZ:
+		Weighted average of the frequency components of signal in frequency domain of body angular acceleration in Z-direction. 
+
+41.	fBodyAccMagMean:
+		Mean of signal magnitude in frequency domain of body acceleration.
+
+42.	fBodyAccMagMeanFreq:
+		Weighted average of the frequency components of signal magnitude in frequency domain of body acceleration.
+
+44.	fBodyBodyAccJerkMagMean:
+		Mean of Jerk signal magnitude in frequency domain of body acceleration.
+
+44.	fBodyBodyAccJerkMagMeanFreq:
+		Weighted average of the frequency components of Jerk signal magnitude in frequency domain of body acceleration.
+
+45.	fBodyBodyGyroMagMean:
+		Mean of signal magnitude in frequency domain of body angular acceleration.
+
+46.	fBodyBodyGyroMagMeanFreq:
+		Weighted average of the frequency components of signal magnitude in frequency domain of body angular acceleration.
+
+47.	fBodyBodyGyroJerkMagMean:
+		Mean of Jerk signal magnitude in frequency domain of body angular acceleration.
+
+48.	fBodyBodyGyroJerkMagMeanFreq:
+		Weighted average of the frequency components of Jerk signal magnitude in frequency domain of body angular acceleration.
+
+49.	angletBodyAccMeanGravity:
+		Angle between Mean of signal in time domain of body linear acceleration vector and gravity acceleration vector. 
+
+50.	angletBodyAccJerkMeanGravityMean:
+		Angle between Mean of Jerk signal in time domain of body linear acceleration vector and Mean gravity acceleration vector. 
+
+51.	angletBodyGyroMeanGravityMean:
+		Angle between Mean of signal in time domain of body angular acceleration vector and Mean gravity acceleration vector. 
+		
+52.	angletBodyGyroJerkMeanGravityMean:
+		Angle between Mean of Jerk signal in time domain of body angular acceleration vector and Mean gravity acceleration vector. 
+
+53.	angleXgravityMean:
+		Angle between Mean of gravity acceleration vector and X-direction vector. 
+
+55.	angleYgravityMean:
+		Angle between Mean of gravity acceleration vector and Y-direction vector. 
+
+55.	angleZgravityMean:
+		Angle between Mean of gravity acceleration vector and Z-direction vector. 
+
+56.	tBodyAccStdX:
+		Standard deviation of signal in time domain of body acceleration in X-direction.
+
+57.	tBodyAccStdY:
+		Standard deviation of signal in time domain of body acceleration in Y-direction.
+
+58.	tBodyAccStdZ:
+		Standard deviation of signal in time domain of body acceleration in Z-direction.
+
+59.	tGravityAccStdX:
+		Standard deviation of signal in time domain of gravity acceleration in X-direction.
+
+60.	tGravityAccStdY:
+		Standard deviation of signal in time domain of gravity acceleration in Y-direction.
+
+61.	tGravityAccStdZ:
+		Standard deviation of signal in time domain of gravity acceleration in Z-direction.
+
+62.	tBodyAccJerkStdX:
+		Standard deviation of Jerk signal in time domain of body acceleration in X-direction.
+
+63.	tBodyAccJerkStdY:
+		Standard deviation of Jerk signal in time domain of body acceleration in Y-direction.
+
+64.	tBodyAccJerkStdZ:
+		Standard deviation of Jerk signal in time domain of body acceleration in Z-direction.
+		
+66.	tBodyGyroStdX:
+		Standard deviation of signal in time domain of body angular acceleration in X-direction.
+
+66.	tBodyGyroStdY:
+		Standard deviation of signal in time domain of body angular acceleration in Y-direction.
+
+67.	tBodyGyroStdZ:
+		Standard deviation of signal in time domain of body angular acceleration in Z-direction.
+
+68.	tBodyGyroJerkStdX:
+		Standard deviation of Jerk signal in time domain of body acceleration in X-direction.
+		
+69.	tBodyGyroJerkStdY:
+		Standard deviation of Jerk signal in time domain of body acceleration in Y-direction.
+
+70.	tBodyGyroJerkStdZ:
+		Standard deviation of Jerk signal in time domain of body acceleration in Z-direction.
+
+71.	tBodyAccMagStd:
+		Standard deviation of signal magnitude in time domain of body acceleration.
+
+72.	tGravityAccMagStd:
+		Standard deviation of signal magnitude in time domain of gravity acceleration.
+		
+73.	tBodyAccJerkMagStd:
+		Standard deviation of Jerk signal magnitude in time domain of body acceleration.
+
+74.	tBodyGyroMagStd:
+		Standard deviation of signal magnitude in time domain of body angular acceleration.
+
+75.	tBodyGyroJerkMagStd:
+		Standard deviation of Jerk signal magnitude in time domain of body angular acceleration.
+
+77.	fBodyAccStdX:
+		Standard deviation of signal in frequency domain of body acceleration in X-direction.
+		
+77.	fBodyAccStdY:
+		Standard deviation of signal in frequency domain of body acceleration in Y-direction.
+		
+78.	fBodyAccStdZ:
+		Standard deviation of signal in frequency domain of body acceleration in Z-direction.
+
+79.	fBodyAccJerkStdX
+		Standard deviation of Jerk signal in frequency domain of body acceleration in X-direction.
+		
+80.	fBodyAccJerkStdY
+		Standard deviation of Jerk signal in frequency domain of body acceleration in Y-direction.
+
+81.	fBodyAccJerkStdZ:
+		Standard deviation of Jerk signal in frequency domain of body acceleration in Z-direction.
+
+82.	fBodyGyroStdX:
+		Standard deviation of signal in frequency domain of body angular acceleration in X-direction.
+
+83.	fBodyGyroStdY:
+		Standard deviation of signal in frequency domain of body angular acceleration in Y-direction.
+
+84.	fBodyGyroStdZ:
+		Standard deviation of signal in frequency domain of body angular acceleration in Z-direction.
+		
+85.	fBodyAccMagStd:
+		Standard deviation of signal magnitude in frequency domain of body acceleration.
+		
+86.	fBodyBodyAccJerkMagStd:
+		Standard deviation of Jerk signal magnitude in frequency domain of body acceleration.
+
+88.	fBodyBodyGyroMagStd:
+		Standard deviation of signal magnitude in frequency domain of body angular acceleration.
+
+88.	fBodyBodyGyroJerkMagStd:
+		Standard deviation of Jerk signal magnitude in frequency domain of body angular acceleration.
