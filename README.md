@@ -29,12 +29,16 @@ Getting and Cleaning Data Course Project Assigment
 
 The variables description of the NewTidyData is presented in the CodeBook.txt with some level of detail.
 
-NB: Because of the previous assignment where my peers have complained the I did not make a detailed comment in my script, this time,
-the script has a description of each important step and it is aligned to the items 1 to 8 described above.
-This project did not include the raw data presented in the folders "Inertial Signals" since it was not necessary as remarked bythe course Tutor: https://class.coursera.org/getdata-013/forum/thread?thread_id=30
+###Remarks:
 
-This work should be read in conjunction of the readme.txt and features_info.txt files that are provided with the original data(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
-A summary of content of such files are presented bellow: 
+*  The item 4 of the assignment is quite sujective. Here I have decided to label the variables with CamelCase structure and     also to not use long strings. Using a common sense I have extended the variable name when it is not so obvious (e.g.         "time" instead of "t"), the rest of variable names descriptions are found in the code book.
+
+*  Because of the previous assignment where my peers have complained the I did not make a detailed comment in my script, this    time, the script has a description of each important step and it is aligned to the items 1 to 8 described above.
+
+*  This project did not include the raw data presented in the folders "Inertial Signals" since it was not necessary as          remarked bythe course Tutor: https://class.coursera.org/getdata-013/forum/thread?thread_id=30
+
+*  This work should be read in conjunction of the readme.txt and features_info.txt files that are provided with the original    data(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+   A summary of content of such files are presented bellow: 
 
 ***************************************************
 30 volunteers were asked to wear two type of sensors: accelerometer and gyroscope.
