@@ -3,6 +3,7 @@
 #   #####################################################################################
 
     library("dplyr")
+#   if you don't have the package use: install.packages("dplyr")
 
     fileUrl <- "http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
     download.file(fileUrl, destfile="./dataset.zip", mode="wb") 
